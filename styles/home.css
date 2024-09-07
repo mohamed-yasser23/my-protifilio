@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    font-family: "Roboto";
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #F9F9F9;
+   
+}
+
+main{
+    flex: 1;
+}
+
+img{
+    transition: opacity 1s ease-in-out;  /*for the animation*/
+    opacity: 1; 
+}
+p{
+    color:#F2F2F2;;
+}
+
+h2 {
+    font-weight:bold ;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: xx-large;
+    color: #F2F2F2;;
+}
+
+h3{
+    color: #F2F2F2;
+}
+
+/*//////////////////////////////////////////////////////*/
+
+.introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    background-color: #2C3E50;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    
+}
+.logo{
+    width: 400px;
+    border-radius: 50%;
+    border:10px solid wheat;
+    
+}
+.introduction p{
+   font-family: 'Times New Roman', Times, serif;
+   font-style: italic;
+   font-size: x-large;
+   font-weight: 300;
+   margin-top: 50px;
+}
+
+
+/*///////////////////////////////////*/
+
+.ABOUT-ME{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.personal-pic{
+    width: 300px;
+    border-radius: 50%;
+    border:8px solid wheat;
+    margin-bottom: 15px;
+}
+.about-P{
+    text-align:center ;
+    font-weight: 300;
+    font-size: large;
+    line-height: 30px;
+}
+
+
+#about-me{
+    margin-top: 50px;
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    background-color: #2C3E50;
+    margin-bottom: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+   
+}
+
+/*////////////////////////////////////*/
+
+.EDUCATION{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edu-info{
+    text-align:left ;
+    font-weight: 300;
+    font-size: large;
+    line-height: 30px;
+    margin-left: 2vw;
+}
+
+.edu-pic{
+    width: 200px;
+    border-radius: 50%;
+    border:8px solid wheat;
+    margin-right: 3vw;
+}
+
+
+#education{
+    margin-bottom: 200px;
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    background-color: #2C3E50;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+/*////////////////////////////////////////////*/
+
+#achievements{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    background-color: #2C3E50;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+   
+}
+.achievements-intro{
+    text-align:center ;
+    font-weight: 300;
+    font-size: large;
+    line-height: 25px;
+    margin-bottom: 70px;
+}
+
+.achieve-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px;
+    padding: 0 20px;
+}
+
+.achieve-1-pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border:8px solid wheat;
+    margin-right: 3vw;
+}
+
+.achieve-1-info{
+    text-align:left ;
+    font-weight: 300;
+    font-size: large;
+    line-height: 30px;
+    margin-left: 2vw;
+}
+
+.achieve-2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.achieve-2-pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border:8px solid wheat;
+    margin-left: 3vw;
+}
+
+.achieve-2-info{
+    text-align:left ;
+    font-weight: 300;
+    font-size: large;
+    line-height: 30px;
+    margin-right: 2vw;
+}
+
+
+
+/*////////////////////////////////////*/
+
+
+#projects{
+    margin-bottom: 100px;
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    background-color: #2C3E50;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+   
+}
+
+.projects-intro{
+    text-align:center ;
+    font-weight: 300;
+    font-size: large;
+    line-height: 25px;
+    margin-bottom: 70px;
+}
+
+
+.project-temp{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.projects-info{
+    text-align:left ;
+    font-weight: 300;
+    font-size: large;
+    line-height: 30px;
+    margin-left: 2vw;
+}
+
+.projects-pic{
+    width: 200px;
+    border-radius: 50%;
+    border:8px solid wheat;
+    margin-right: 3vw;
+}
+
+.project-title{
+    text-align:left ;
+    font-weight: 500;
+    font-size: x-large;
+    margin-left: 2vw;
+    margin-bottom: 30px;
+}
+
+/*//////////////////////////////////////*/

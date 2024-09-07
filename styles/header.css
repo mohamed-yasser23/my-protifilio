@@ -1,0 +1,41 @@
+header{
+    background-color: #2C3E50;
+    height: 80px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-icon{
+    width: 50px;
+    border-radius: 50%;
+    border:2px solid rgb(212, 175, 55);
+    margin-left: 5px;
+}
+
+.partitions{
+display: flex;
+justify-content: center;
+align-items:center ;
+height: 120px;
+}
+
+.partitions a {
+    font-size: 17px; 
+    color: rgb(212, 175, 55);    
+    text-decoration: none;
+    padding: 0 12px; 
+    transition: color 0.3s ease;
+}
+.partitions a:hover {
+    
+    color:rgb(66, 105, 144);    
+   
+
+}
+.divid{
+height: 30px;           
+width: 1px;
+background-color: rgba(212, 175, 55, 0.1); 
+}

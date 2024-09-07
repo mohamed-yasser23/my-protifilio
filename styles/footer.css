@@ -1,0 +1,43 @@
+footer{
+    background-color: #2C3E50;
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+   
+
+}
+footer p{
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.contact{
+    font-size: large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.icon-container a {
+    font-size: 30px; 
+    color: rgb(212, 175, 55);    
+    text-decoration: none;
+    padding: 0 15px; 
+    transition: color 0.3s ease;
+}
+
+.icon-container a:hover {
+    color: #007BFF;
+}
+
+.divider {
+    height: 30px;           
+    width: 1px;
+    background-color: rgba(212, 175, 55, 0.1); 
+}
